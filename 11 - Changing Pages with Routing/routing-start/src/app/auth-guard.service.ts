@@ -5,7 +5,7 @@ import {
   Router,
   CanActivateChild
 } from '@angular/router';
-import { Observable } from 'rxjs';
+import { Observable } from 'rxjs/observable';
 import { Injectable } from '@angular/core';
 import { AuthService } from './auth.service';
 
