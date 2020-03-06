@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <input type="text" [(ngModel)]="filteredStatus" />
+      <br /><br />
+      <button class="btn btn-primary" (click)="onAddServer()">
+        Add Server
+      </button>
+      <br /><br />
+      <h2>App Status: {{ appStatus | async }}</h2>
+      <hr />
+      <ul class="list-group">
+        <li
+          class="list-group-item"
+          *ngFor="let server of servers | sort: 'name'"
+          [ngClass]="getStatusClasses(server)"
+        >
+          <span class="badge">
+            {{ server.status }}
+          </span>
+          <strong>{{ server.name }}</strong> |
+          {{ server.instanceType | uppercase | reverse }} |
+          {{ server.started | date: 'fullDate' | uppercase }}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
