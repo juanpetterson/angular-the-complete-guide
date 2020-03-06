@@ -78,4 +78,8 @@ export class AppComponent implements OnInit {
 
     return promise;
   }
+
+  get controls() {
+    return (<FormArray>this.signupForm.get('hobbies')).controls;
+  }
 }
