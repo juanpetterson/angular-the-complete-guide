@@ -1,0 +1,16 @@
+.m-l-xs {
+  margin-left: 0.25rem;
+}
+
+.m-r-xs {
+  margin-right: 0.25rem;
+}
+
+.m-t-xm {
+  margin-bottom: 0.5rem;
+}
+
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
