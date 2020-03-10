@@ -31,5 +31,3 @@ const appRoutes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule {}
-
-// DESCREVER O LAZY LOADING NAS ANOTAÇOES
