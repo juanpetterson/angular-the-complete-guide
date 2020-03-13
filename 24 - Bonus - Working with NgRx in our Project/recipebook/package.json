@@ -19,6 +19,7 @@
     "@angular/platform-browser": "^9.0.0",
     "@angular/platform-browser-dynamic": "^9.0.0",
     "@angular/router": "^9.0.0",
+    "@ngrx/effects": "^9.0.0",
     "@ngrx/store": "^8.6.0",
     "bootstrap": "3.3.7",
     "core-js": "^3.1.2",
