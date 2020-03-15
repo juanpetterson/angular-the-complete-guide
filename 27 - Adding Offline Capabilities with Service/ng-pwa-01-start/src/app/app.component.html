@@ -1,0 +1,6 @@
+<h1>My Posts</h1>
+<app-post
+  *ngFor="let post of posts"
+  [content]="post.body"
+  [title]="post.title"
+></app-post>
