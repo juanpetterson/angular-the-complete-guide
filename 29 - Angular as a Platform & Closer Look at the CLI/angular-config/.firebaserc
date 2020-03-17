@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ng-complete-guide-7b38d": {
+      "hosting": {
+        "angular-config": [
+          "ng-complete-guide-7b38d"
+        ]
+      }
+    }
+  }
+}
